@@ -3,3 +3,4 @@ sudo apt update
 sudo apt install ros-jazzy-librealsense2*
 sudo apt install ros-jazzy-realsense2-*
 sudo apt install ros-jazzy-cv-bridge python3-opencv
+sudo apt install ros-jazzy-message-filters
