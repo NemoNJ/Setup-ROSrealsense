@@ -28,7 +28,7 @@ average rate: 9.138
 
 ros2 launch realsense2_camera rs_launch.py initial_reset:=true
 python3 image_viewer_node.py #image_raw
-
+python3 rgbd_viewer_node.py
 
 
 
