@@ -1,0 +1,4 @@
+sudo dpkg --configure -a
+sudo apt update
+sudo apt install ros-jazzy-librealsense2*
+sudo apt install ros-jazzy-realsense2-*
