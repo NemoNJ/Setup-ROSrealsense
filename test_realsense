@@ -1,0 +1,33 @@
+(myvenv) jirayu@jirayu-Vivobook-ASUSLaptop-K5404VA-S5404VA:~$ ros2 topic hz /camera/camera/color/image_raw
+average rate: 24.187
+	min: 0.032s max: 0.100s std dev: 0.01702s window: 25
+average rate: 12.561
+	min: 0.032s max: 0.700s std dev: 0.15123s window: 31
+average rate: 8.757
+	min: 0.032s max: 1.267s std dev: 0.25118s window: 33
+average rate: 8.216
+	min: 0.032s max: 1.267s std dev: 0.23974s window: 40
+average rate: 7.239
+	min: 0.032s max: 1.267s std dev: 0.26019s window: 49
+average rate: 9.138
+	min: 0.032s max: 1.267s std dev: 0.22104s window: 71
+
+
+
+(myvenv) jirayu@jirayu-Vivobook-ASUSLaptop-K5404VA-S5404VA:~$ ros2 topic list
+/camera/camera/color/camera_info
+/camera/camera/color/image_raw
+/camera/camera/color/metadata
+/camera/camera/depth/camera_info
+/camera/camera/depth/image_rect_raw
+/camera/camera/depth/metadata
+/camera/camera/extrinsics/depth_to_color
+
+
+
+
+(myvenv) jirayu@jirayu-Vivobook-ASUSLaptop-K5404VA-S5404VA:~$ ros2 launch realsense2_camera rs_launch.py initial_reset:=true
+
+
+
+
