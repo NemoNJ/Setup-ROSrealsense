@@ -26,7 +26,9 @@ average rate: 9.138
 
 
 
-(myvenv) jirayu@jirayu-Vivobook-ASUSLaptop-K5404VA-S5404VA:~$ ros2 launch realsense2_camera rs_launch.py initial_reset:=true
+ros2 launch realsense2_camera rs_launch.py initial_reset:=true
+python3 image_viewer_node.py #image_raw
+
 
 
 
