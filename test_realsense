@@ -23,7 +23,7 @@ average rate: 9.138
 /camera/camera/depth/metadata
 /camera/camera/extrinsics/depth_to_color
 
-
+ros2 topic echo /camera/camera/depth/image_rect_raw --once
 
 
 ros2 launch realsense2_camera rs_launch.py initial_reset:=true
