@@ -1,0 +1,3 @@
+pip install opencv-python numpy
+python bilateral_upsample.py                    # ขยาย 2x  (image/ → output/)
+python bilateral_upsample.py --scale 3 --amount 1.5
